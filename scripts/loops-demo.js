@@ -3,10 +3,6 @@ function ask(question, yes, no) {
     else no();
 }
 
-function hello() {
-    alert("Hello!")
-}
-
 ask(
     ("Вы согласны?"),
     function () {
