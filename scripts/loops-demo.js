@@ -1,20 +1,9 @@
-function ask(question, yes, no) {
-    if (confirm(question)) yes()
-    else no();
-}
+ alert ( 5>4 ) ; // true
+ alert (" ананас" >"яблоко") ; // felse
 
-ask(
-    ("Вы согласны?"),
-    function () {
-        alert("Вы согласились.");
-    },
-    function () {
-        alert("Вы отменили выполнение.");
-    }
-);
-
-
-
-
+ alert("2">"12") ; //false true
+ alert( andefinet = null ) ; // true
+ alert(andefinet === null ) ; // false
+ alert( null == 0 ) ; //
 
 
